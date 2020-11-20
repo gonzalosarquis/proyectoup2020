@@ -336,24 +336,149 @@ footer{
     color: white;
 }
 
-
-@media (max-width: 576px){
+@media (min-width: 544px){
     .overlay h2{
+        font-size: 15px;
         top:50%;
         left:35%;
         transform:translate(-50%,-50%);
         color:#fff;
     }
     .overlay p{
+        font-size: 12px;
         position:absolute;
         top:35%;
-        left:16%;
+        left:35%;
         transform:translate(-50%,-50%);
         color:#fff;
     }
 
     .logo img{
         justify-content: center;
+    }
+    .logo{
+        width: 45%;
+    }
+    .galeria h1{
+        font-size: 50px;
+    }
+    .curriculum{
+        position: absolute;
+        top: 118%;
+    }
+    .curriculum a{
+        color: #3c43f3;
+        font-size: 20px;
+        font-weight: 600;
+        background-color: white;
+        padding: 15px 30px 15px 30px;
+        border-radius: 40px;
+        text-decoration: none;
+    }
+    .contenedorNoticias{
+        margin-top: 80px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .cajaNoticias{
+        padding: 70px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .acercade h1{
+        font-size: 50px;
+        margin-top: 80px;
+    }
+    .acercade p{
+        padding: 15px;
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 30px;
+        line-height : 30px;
+    }
+    .circulos img{
+        width: 15%;
+    }
+    .circuloscolor img{
+        width: 15%;
+    }
+    .frase img{
+        margin-top: 40px;
+        width: 85%;
+    }
+    .cajaGaleria:hover{
+        transition: 0.5s ease-in-out;
+        transform: scale(1);
+    }
+    .formulario{
+        margin-top: 60px;
+        padding: 40px;
+        width: 85%;
+        background-color: #3c42f3;
+    }
+    .btn-primary{
+        font-size: 15px;
+        margin-top: 30px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        padding-left: 150px;
+        padding-right: 150px;
+        transition: 0.5s ease-in-out;
+        transform: scale(0.9);
+    }
+    footer{
+        margin-top: 50px;
+    }
+    .contactar{
+        margin-top: 20px;
+    }
+    .custom-control-label{
+        font-size: 13px;
+    }
+    .cajaFooter{
+        margin-top: 40px;
+    }
+    .textoFooter p{
+        text-align: center;
+    }
+    .navbar{
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .nav_footer{
+        font-weight: 500;
+        text-align: center;
+        color: white;
+        margin-left: 80px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    
+}
+
+@media (max-width: 576px){
+    .overlay h2{
+        font-size: 15px;
+        top:50%;
+        left:35%;
+        transform:translate(-50%,-50%);
+        color:#fff;
+    }
+    .overlay p{
+        font-size: 12px;
+        position:absolute;
+        top:35%;
+        left:35%;
+        transform:translate(-50%,-50%);
+        color:#fff;
+    }
+
+    .logo img{
+        justify-content: center;
+    }
+    .logo{
+        width: 45%;
     }
     .galeria h1{
         font-size: 50px;

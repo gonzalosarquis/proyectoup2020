@@ -11,7 +11,9 @@ header{
     width: 100%;
     z-index: 7;
 }
-
+section{
+    width: 100%;
+}
 body{
     font-family: 'Poppins', sans-serif;
     width: 100%;
@@ -179,6 +181,7 @@ body{
     margin-top: 80px;
     margin-left: 100px;
     margin-right: 100px;
+    justify-content: center;
 }
 .cajaNoticias{
     text-align: justify;
@@ -1022,8 +1025,9 @@ footer{
         width: 7%;
     }
     .frase img{
-        margin-top: 40px;
-        width: 30%;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        width: 40%;
     }
 	.cajaDatos{
 		padding: 200px;
@@ -1057,7 +1061,7 @@ footer{
 		cursor: pointer;
 	}
 	.overlay h2{
-		font-size: 15px;
+		font-size: 25px;
 		position:absolute;
 		top:50%;
 		left:50%;
@@ -1066,7 +1070,7 @@ footer{
 	}
 	.overlay p{
 		padding-bottom: 20px;
-		font-size: 10px;
+		font-size: 18px;
 		position:absolute;
 		top:35%;
 		left:50%;

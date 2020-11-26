@@ -18,6 +18,7 @@ body{
     font-family: 'Poppins', sans-serif;
     width: 100%;
 }
+
 .textoNav{
     font-size: 22px;
     margin-right: 80px;
@@ -44,6 +45,7 @@ body{
 }
 .ondas{
     width: 100%;
+    z-index: 0;
 }
 .ondas img{
     width: 100%;
@@ -187,8 +189,8 @@ body{
     text-align: justify;
     border-radius: 50px;
     padding: 80px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
     margin-bottom: 100px;
     transition: 0.5s ease-in-out;
     cursor: pointer;
@@ -214,7 +216,6 @@ body{
 .formulario{
     margin-top: 60px;
     padding: 80px;
-    width: 50%;
     background-color: #3c42f3;
 }
 .label{
@@ -460,7 +461,7 @@ footer{
     
 }
 
-@media (max-width: 576px){
+@media (max-width: 400px){
     .overlay h2{
         font-size: 15px;
         top:50%;
@@ -482,6 +483,149 @@ footer{
     }
     .logo{
         width: 45%;
+    }
+    .cajaDatos{
+        background-color: #3c43f3;
+        padding: 20px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    .cajaDatos h2{
+        color: white;
+    }
+    .galeria h1{
+        font-size: 50px;
+    }
+    .curriculum{
+        position: absolute;
+        top: 118%;
+    }
+    .curriculum a{
+        color: #3c43f3;
+        font-size: 20px;
+        font-weight: 600;
+        background-color: white;
+        padding: 15px 30px 15px 30px;
+        border-radius: 40px;
+        text-decoration: none;
+    }
+    .contenedorNoticias{
+        margin-top: 80px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .cajaNoticias{
+        padding: 70px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .acercade h1{
+        font-size: 50px;
+        margin-top: 80px;
+    }
+    .acercade p{
+        padding: 15px;
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 30px;
+        line-height : 30px;
+    }
+    .circulos img{
+        width: 15%;
+    }
+    .circuloscolor img{
+        width: 15%;
+    }
+    .frase img{
+        margin-top: 40px;
+        width: 85%;
+    }
+    .cajaGaleria:hover{
+        transition: 0.5s ease-in-out;
+        transform: scale(1);
+    }
+    .formulario{
+        margin-top: 60px;
+        padding: 40px;
+        width: 85%;
+        background-color: #3c42f3;
+    }
+    .btn-primary{
+        font-size: 15px;
+        margin-top: 30px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        padding-left: 150px;
+        padding-right: 150px;
+        transition: 0.5s ease-in-out;
+        transform: scale(0.9);
+    }
+    footer{
+        margin-top: 50px;
+    }
+    .contactar{
+        margin-top: 20px;
+    }
+    .custom-control-label{
+        font-size: 13px;
+    }
+    .cajaFooter{
+        margin-top: 40px;
+    }
+    .textoFooter p{
+        text-align: center;
+    }
+    .navbar{
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .nav_footer{
+        font-weight: 500;
+        text-align: center;
+        color: white;
+        margin-left: 80px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    
+}
+
+@media (max-width: 576px){
+    .overlay h2{
+        font-size: 15px;
+        top:50%;
+        left:35%;
+        transform:translate(-50%,-50%);
+        color:#fff;
+    }
+    .overlay p{
+        font-size: 12px;
+        position:absolute;
+        top:35%;
+        left:35%;
+        transform:translate(-50%,-50%);
+        color:#fff;
+    }
+    .menuburger{
+        width: 40%;
+    }
+    .logo img{
+        justify-content: center;
+    }
+    .logo{
+        width: 40%;
+    }
+    .cajaDatos{
+        background-color: #3c43f3;
+        padding: 20px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    .cajaDatos h2{
+        color: white;
     }
     .galeria h1{
         font-size: 50px;
@@ -595,13 +739,26 @@ footer{
         transform:translate(-50%,-50%);
         color:#fff;
     }
+    .menuburger{
+        width: 40%;
+    }
 	.logo{
-		width: 75%;
+		width: 40%;
 		padding: 0;
 		margin-left: 80px;
 	}
     .logo img{
         justify-content: center;
+    }
+    .cajaDatos{
+        background-color: #3c43f3;
+        padding: 250px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    .cajaDatos h2{
+        color: white;
     }
     .galeria h1{
         font-size: 50px;
@@ -703,12 +860,28 @@ footer{
 
 @media (max-width: 992px){
 	.logo{
-		width: 65%;
+		width: 40%;
 		padding: 15px;
-		margin-left: 80px;
+		margin-left: 40px;
 	}
     .logo img{
         justify-content: center;
+    }
+    .menuburger{
+        width: 40%;
+    }
+    .cajaDatos{
+        background-color: #3c43f3;
+        padding-left: 200px;
+        padding-right: 200px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    .cajaDatos h2{
+        color: white;
     }
     .galeria h1{
         font-size: 50px;
@@ -983,26 +1156,27 @@ footer{
     }
     .curriculum{
         position: absolute;
-		top: 180%
+		top: 175%
     }
     .curriculum a{
         color: #3c43f3;
         font-size: 30px;
         font-weight: 600;
         background-color: white;
-        padding: 15px 30px 15px 30px;
-        border-radius: 40px;
+        padding: 20px 35px 20px 35px;
+        border-radius: 50px;
         text-decoration: none;
     }
     .contenedorNoticias{
         margin-top: 80px;
         margin-left: 0;
         margin-right: 0;
+        padding: 30px;
     }
     .cajaNoticias{
         padding: 70px;
-        margin-left: 25px;
-        margin-right: 25px;
+        margin-left: 80px;
+        margin-right: 80px;
     }
 
     .acercade h1{

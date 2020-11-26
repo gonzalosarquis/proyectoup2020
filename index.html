@@ -33,7 +33,7 @@
       </nav>
     </header>
 
-    <section class="justify-content-center">
+    <section>
       <div id="carouselExampleIndicators" class="carousel slide d-none d-sm-none d-md-none d-lg-block g-xl-block" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -82,20 +82,17 @@
         </a>
       </div>
 
-      <body>
         <a href="#arriba"><img class="arriba" src="img/arriba.png" alt=""></a>
         <a name="acercade"></a>  
-        <div class="container-fluid">
-            <section class="row justify-content-center">
-              <div class="container acercade">
-                <article class="col cajatexto">
+        <div class="container-fluid cajaacercade">
+            <section class="row d-flex justify-content-center">
+                <article class="col acercade">
                   <h1>Acerca de</h1>
-                  <div class="circulos text-center">
+                  <div class="circulos">
                     <img src="img/circulos.png" alt="">
                   </div>
                   <p>Steven Paul Jobs nació en San Francisco, California el 24 de febrero de 1955-Palo Alto y falleció en California el 5 de octubre de 2011. Steve Jobs, fue un empresario y magnate de los negocios en el sector informático y de la industria del entretenimiento estadounidense. Fue cofundador y presidente ejecutivo de Apple​ y máximo accionista individual de The Walt Disney Company.</p>
                 </article>
-              </div>
               <div class="curriculum">
                 <a href="curriculum/curriculum.html">CV Completo</a>
               </div>
@@ -290,9 +287,8 @@
           </div>
 
 
-          <div class="container-fluid">
-            <section class="row">
-              <div class="d-flex justify-content-center text-center col">
+          <div class="container-fluid cajaformulario">
+            <section class="row d-flex justify-content-center">
                 <form netlify class="formulario shadow-lg p-10">
                   <div class="cajaTexto">
                     <h2>ALGUNA DUDA?</h2>
@@ -344,8 +340,9 @@
           </div>
     </section>
             
-      <footer>
-        <section class="row justify-content-center">
+      <footer class="justify-content-center">
+        <div class="container-fluid">
+        <section class="row">
           <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="navbar-nav textoNav">
               <a class="nav_footer" href="#acercade">Acerca de</a>
@@ -355,9 +352,10 @@
             </div>
           </nav>
         </section>
+      </div>
 
         <div class="container">
-          <secction class="row justify-content-center">
+          <section class="row justify-content-center">
             <div class="redessociales">
               <a href="https://www.instagram.com/stevejobsok/?hl=es"><img src="img/instagramblanco.png" alt=""></a>
             </div>
@@ -367,18 +365,18 @@
             <div class="redessociales">
               <a href="https://www.linkedin.com/"><img src="img/linkedinblanco.png" alt=""></a>
             </div>
-          </secction>
+          </section>
         </div>
         
         <div class="container">
-          <secction class="row text-center cajaFooter">
+          <section class="row text-center cajaFooter">
             <div class="col-12 textoFooter">
               <p >&copy Gonzalo Sarquis | Universidad de Palermo</p>
             </div>
             <div class="col-12 textoFooter">
               <p >Hecho con 	&#9825; en Buenos Aires.</p>
             </div>
-          </secction>
+          </section>
         </div>
       </footer>
 

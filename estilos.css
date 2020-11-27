@@ -545,6 +545,9 @@ footer{
         border-radius: 40px;
         text-decoration: none;
     }
+    .frase{
+        margin-bottom: 35px;
+    }
     .circulos img{
         width: 20%;
     }
@@ -558,11 +561,14 @@ footer{
         background-color: #3c43f3;
         padding-left: 50px;
         padding-right: 50px;
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-top: 25px;
+        padding-bottom: 25px;
         margin-top: 0px;
         margin-bottom: 0px;
         text-align: center;
+    }
+    .cajaDatos h1{
+        font-size: 25px;
     }
     .cajaGaleria:hover{
         transition: 0.5s ease-in-out;
@@ -592,7 +598,7 @@ footer{
     .formulario{
         margin-top: 60px;
         padding: 40px;
-        width: 100%;
+        width: 90%;
         background-color: #3c42f3;
     }
     .btn-primary{

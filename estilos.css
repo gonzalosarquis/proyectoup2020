@@ -381,7 +381,7 @@ footer{
 
 /*----------------------------------------Media----------------------------------*/
 
-@media (max-width: 992px){
+@media (min-width: 992px){
 	.logo{
 		width: 40%;
 		padding: 15px;

@@ -78,6 +78,11 @@ header{
 .circulos{
     text-align: center;
 }
+
+.circuloscolor{
+    text-align: center;
+}
+
 .titulos{
     color: white;
     font-size: 100px;
@@ -486,5 +491,350 @@ footer{
         margin-left: 80px;
         margin-bottom: 10px;
         font-size: 20px;
+    }
+}
+
+@media (max-width: 1366px){
+	.logo{
+		width: 35%;
+		padding: 15px;
+		margin-left: 80px;
+	}
+	.textoNav{
+		font-size: 18px;
+	}
+    .logo img{
+        justify-content: center;
+    }
+    .curriculum{
+        margin-top: 60px;
+    }
+    .curriculum a{
+        font-size: 20px;
+        font-weight: 600;
+        padding: 15px 30px 15px 30px;
+        border-radius: 40px;
+    }
+    .contenedorNoticias{
+        margin-top: 80px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .cajaNoticias{
+        padding: 50px;
+        margin-bottom: 0;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .acercade{
+        margin-top: 0;
+    }
+    .acercade img{
+        margin-top: 0;
+    }
+    .titulos{
+        font-size: 50px;
+        margin-top: 100px;
+    }
+    .titulos2{
+        font-size: 50px;
+        margin-top: 100px;
+    }
+    .acercade p{
+        padding: 15px;
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: 15px;
+		margin-right: 20%;
+		margin-left: 20%;
+        line-height : 30px;
+    }
+    .frase{
+        width: 45%;
+    }
+	.cajaDatos{
+		padding: 120px;
+		margin-top: 100px;
+		margin-bottom: 0;
+	}
+    .cajaGaleria:hover{
+        transition: 0.5s ease-in-out;
+        transform: scale(1.1);
+    }
+	.contenedorGaleria{
+    	margin-top: 50px;
+	}
+	.cajaGaleria:hover{
+		z-index: 6;
+		transition: 0.5s ease-in-out;
+		transform: scale(1.1);
+	}
+	.cajaImg .overlay{
+		position:absolute;
+		bottom:0;
+		left:0;
+		width:100%;
+		height:40%;
+		background:#3c42f3;
+		opacity:0;
+		transition: opacity 0.5s ease-in-out;
+	}
+	.cajaImg:hover .overlay{
+		opacity:1;
+		cursor: pointer;
+	}
+	.overlay h2{
+		font-size: 15px;
+	}
+	.overlay p{
+        font-size: 12px;
+	}
+	.formulario{
+		margin-top: 60px;
+		padding: 40px;
+		background-color: #3c42f3;
+    }
+    .btn-primary{
+        font-size: 15px;
+        margin-top: 30px;
+        padding: 20px 350px 20px 350px;
+        transition: 0.5s ease-in-out;
+        transform: scale(0.9);
+    }
+    footer{
+        margin-top: 50px;
+    }
+    .contactar{
+        margin-top: 20px;
+    }
+    .custom-control-label{
+        font-size: 13px;
+    }
+    .cajaFooter{
+        margin-top: 40px;
+    }
+    .textoFooter p{
+        text-align: center;
+    }
+    .navbar{
+        padding: 0;
+        margin-bottom: 0;
+    }
+    .nav_footer{
+        font-weight: 500;
+        text-align: center;
+        color: white;
+        margin-left: 80px;
+        margin-bottom: 40px;
+        font-size: 17px;
+    }
+    
+}
+
+@media (min-width: 1200px) {
+	.logo{
+		width: 48%;
+		padding: 15px;
+		margin-left: 80px;
+	}
+	.textoNav{
+		font-size: 18px;
+	}
+    .logo img{
+        justify-content: center;
+    }
+
+    .contenedorNoticias{
+        margin-top: 80px;
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    .cajaNoticias{
+        padding: 50px;
+        margin-bottom: 0;
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    .acercade{
+        margin-top: 0;
+    }
+    .acercade img{
+        margin-top: 0;
+    }
+    .titulos{
+        font-size: 70px;
+        margin-top: 100px;
+    }
+    .titulos2{
+        font-size: 70px;
+        margin-top: 100px;
+    }
+    .acercade p{
+        padding: 0 25px 0 25px;
+        font-size: 25px;
+        line-height : 50px;
+    }
+    .frase{
+        width: 40%;
+    }
+	.cajaDatos{
+		padding: 120px;
+		margin-top: 100px;
+		margin-bottom: 0;
+	}
+    .cajaGaleria:hover{
+        transition: 0.5s ease-in-out;
+        transform: scale(1.1);
+    }
+	.contenedorGaleria{
+    	margin-top: 50px;
+	}
+	.cajaGaleria:hover{
+		z-index: 6;
+		transition: 0.5s ease-in-out;
+		transform: scale(1.1);
+	}
+	.overlay h2{
+		font-size: 20px;
+	}
+	.overlay p{
+        font-size: 18px;
+	}
+	.formulario{
+		margin-top: 60px;
+		padding: 40px;
+		background-color: #3c42f3;
+    }
+    footer{
+        margin-top: 50px;
+    }
+    .contactar{
+        margin-top: 20px;
+    }
+    .custom-control-label{
+        font-size: 13px;
+    }
+    .cajaFooter{
+        margin-top: 40px;
+    }
+    .textoFooter p{
+        text-align: center;
+    }
+    .navbar{
+        padding: 0;
+        margin-bottom: 0;
+    }
+    .nav_footer{
+        font-weight: 500;
+        text-align: center;
+        color: white;
+        margin-left: 80px;
+        margin-bottom: 40px;
+        font-size: 17px;
+    }
+    
+}
+
+@media (min-width: 1800px) {
+    .logo{
+        width: 55%;
+        padding: 20px;
+        margin-left: 80px;
+    }
+    .cajaacercade{
+        position: absolute;
+    }
+    .acercade{
+        text-align: center;
+    }
+    .circulos{
+        text-align: center;
+    }
+
+    .circuloscolor{
+        text-align: center;
+    }
+
+    .titulos{
+        color: white;
+        font-size: 100px;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 150px;
+    }
+    .titulos2{
+        color: black;
+        font-size: 100px;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 150px;
+    }
+    .acercade p{
+        color: white;
+        font-size: 30px;
+        font-weight: 500;
+        text-align: center;
+        margin-top: 50px;
+        text-align: justify;
+        line-height : 60px;
+    }
+    .acercade img{
+        margin-top: 5%;
+    }
+
+    .curriculum{
+        position: relative;
+        transition: 0.5s;
+        margin-top: 100px;
+    }
+    .curriculum a{
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+        border: 1px solid white;
+        background-color: transparent;
+        padding: 20px 40px 20px 40px;
+        border-radius: 50px;
+        text-decoration: none;
+    }
+    .curriculum:hover{
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    .curriculum:hover a{
+        background-color: white;
+        color: #3c43f3;
+    }
+
+    .frase{
+        position: relative;
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 2%;
+    }
+    .frase img{
+        width: 100%;
+    }
+    .cajaformulario{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 2%;
+    }
+    .formulario{
+        position: relative;
+        margin-top: 60px;
+        padding: 80px;
+        background-color: #3c42f3;
+    }
+    .btn-primary{
+        background-color: white;
+        color: #3c42f3;
+        font-weight: 500;
+        font-size: 20px;
+        margin-top: 40px;
+        padding: 20px 450px 20px 450px;
+        transition: 0.5s ease-in-out;
+        transform: scale(0.9);
     }
 }

@@ -530,12 +530,12 @@ footer{
         width: 30%;
     }
     .frase{
-        width: 85%;
-    }
-    .frase img{
         margin-bottom: 80px;
         margin-top: 20px;
         margin-left: 25px;
+    }
+    .frase img{
+        width: 85%;
     }
     .cajaDatos{
         background-color: #3c43f3;

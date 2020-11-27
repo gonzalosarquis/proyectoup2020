@@ -381,6 +381,121 @@ footer{
 
 /*----------------------------------------Media----------------------------------*/
 
+@media (max-width: 768px){
+	.logo{
+		width: 40%;
+		padding: 15px;
+		margin-left: 40px;
+	}
+    .logo img{
+        justify-content: center;
+    }
+    .menuburger{
+        width: 40%;
+    }
+    .titulos{
+        font-size: 40px;
+        margin-top: 80px;
+    }
+    .titulos2{
+        font-size: 40px;
+        margin-top: 80px;
+    }
+    .acercade p{
+        padding: 18px;
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: 30px;
+        line-height : 25px;
+    }
+    .circulos img{
+        width: 20%;
+    }
+    .circuloscolor img{
+        width: 40%;
+    }
+    .frase{
+        width: 85%;
+    }
+    .frase img{
+        margin-bottom: 80px;
+        margin-top: 20px;
+        margin-left: 25px;
+    }
+    .cajaDatos{
+        background-color: #3c43f3;
+        padding-left: 200px;
+        padding-right: 200px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    .cajaGaleria:hover{
+        transition: 0.5s ease-in-out;
+        transform: scale(1);
+    }
+    .overlay h2{
+        font-size: 15px;
+    }
+    .overlay p{
+        font-size: 12px;
+    }
+    .contenedorNoticias{
+        margin-top: 80px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+    .cajaNoticias{
+        padding: 40px;
+        margin-bottom: 50px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .formulario{
+        margin-top: 60px;
+        padding: 40px;
+        width: 100%;
+        background-color: #3c42f3;
+    }
+    .btn-primary{
+        font-size: 15px;
+        margin-top: 30px;
+        padding: 15px 150px 15px 150px;
+        transition: 0.5s ease-in-out;
+        transform: scale(0.9);
+    }
+    footer{
+        margin-top: 50px;
+    }
+    .contactar{
+        margin-top: 20px;
+    }
+    .custom-control-label{
+        font-size: 13px;
+    }
+    .cajaFooter{
+        margin-top: 40px;
+    }
+    .textoFooter p{
+        text-align: center;
+    }
+    .navbar{
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .nav_footer{
+        font-weight: 500;
+        text-align: center;
+        color: white;
+        margin-left: 80px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+}
+
 @media (max-width: 992px){
 	.logo{
 		width: 40%;
@@ -414,11 +529,13 @@ footer{
     .circuloscolor img{
         width: 30%;
     }
+    .frase{
+        width: 85%;
+    }
     .frase img{
         margin-bottom: 80px;
         margin-top: 20px;
         margin-left: 25px;
-        width: 85%;
     }
     .cajaDatos{
         background-color: #3c43f3;

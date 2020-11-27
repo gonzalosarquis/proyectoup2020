@@ -135,7 +135,6 @@ header{
 }
 
 .frase{
-    position: relative;
     width: 100%;
     margin-top: 5%;
     margin-bottom: 2%;
@@ -429,14 +428,7 @@ footer{
     .circuloscolor img{
         width: 40%;
     }
-    .frase{
-        margin-bottom: 80px;
-        margin-top: 20px;
-        margin-left: 25px;
-    }
-    .frase img{
-        width: 85%;
-    }
+
     .cajaDatos{
         background-color: #3c43f3;
         padding-left: 200px;
@@ -559,18 +551,13 @@ footer{
     .circuloscolor img{
         width: 40%;
     }
-    .frase{
-        margin-bottom: 80px;
-        margin-top: 20px;
-        margin-left: 25px;
-    }
     .frase img{
-        width: 85%;
+        margin-bottom: 50px;
     }
     .cajaDatos{
         background-color: #3c43f3;
-        padding-left: 200px;
-        padding-right: 200px;
+        padding-left: 50px;
+        padding-right: 50px;
         padding-top: 50px;
         padding-bottom: 50px;
         margin-top: 0px;
